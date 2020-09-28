@@ -1,0 +1,7 @@
+.form-group{
+    border:1px solid ;
+    padding: 30px 40px;
+    -webkit-box-shadow: 10px 17px 31px 6px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 17px 31px 6px rgba(0,0,0,0.75);
+  box-shadow: 10px 17px 31px 6px rgba(0,0,0,0.75);
+  }
