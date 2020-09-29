@@ -17,32 +17,33 @@
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
                     <center>
-                    <form action="upload.php" method="POST" enctype="multipart/form-data">
+                    <form action="insert.php" method="POST" enctype="multipart/form-data">
                         <div class="form-group">
 
                         <label for="Firstname">Firstname</label>
-                        <input type="text" class="form-control" name="Firstname" autocomplete="off" placeholder="Firstname"><br>
+                        <input type="text" class="form-control" name="Firstname" autocomplete="off" placeholder="Firstname" required><br>
 
                         <label for="Surname">Surname</label>
-                        <input type="text" class="form-control" name="Surname" autocomplete="off" placeholder="Surname"><br>
+                        <input type="text" class="form-control" name="Surname" autocomplete="off" placeholder="Surname" required><br>
 
                         <label for="Username">Username</label>
-                        <input type="text" class="form-control" name="Username" autocomplete="off" placeholder="Username"><br>
+                        <input type="text" class="form-control" name="Username" autocomplete="off" placeholder="Username" required><br>
 
                         <label for="Email">Email</label>
-                        <input type="email" class="form-control" name="Email" autocomplete="off" placeholder="Email"><br>
+                        <input type="email" class="form-control" name="Email" autocomplete="off" placeholder="Email" required><br>
 
                         <label for="City">City</label>
-                        <input type="text" class="form-control" name="City" autocomplete="off" placeholder="City"><br>
+                        <input type="text" class="form-control" name="City" autocomplete="off" placeholder="City" required><br>
 
                         <label for="Password">Password</label>
-                        <input type="password" class="form-control" name="Password" autocomplete="off" placeholder="Password"><br>
+                        <input type="password" class="form-control" name="Password" autocomplete="off" placeholder="Password" required><br>
 
                         <label for="ConfirmPassword">ConfirmPassword</label>
-                        <input type="password" class="form-control" name="ConfirmPassword" placeholder="ConfirmPassword">
+                        <input type="password" class="form-control" name="ConfirmPassword" placeholder="ConfirmPassword" required>
                         <small id="confirmPasswordHelp" class="form-text text-muted">Ensure Your Password Matches ConfirmPassword</small><br>
 
-                        <input type="file" name="UploadFile" placeholder="Profilepic"><br>
+                        <label for="UploadFile">UploadImage</label>
+                        <input type="file" name="UploadFile" placeholder="Profilepic" required><br>
                         <input type="submit" class="btn-primary" value="Sign Up">
 
                         </div>
