@@ -31,3 +31,6 @@ if (isset($_POST['submit'])){
 
 }
 ?>
+<!-- $result = mysql_query("select * from userdetails where Username ='$Username1' and Password='$Password1'");
+ $run = mysqli_query($conn,$result);
+ $row = mysqli_fetch_array($result); -->

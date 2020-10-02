@@ -11,20 +11,20 @@
             <div class="row">
                 <div class="col-md-3"></div>
                 <div class="col-md-6">
-                <center>
-                 <form class="form-group">
+                <centre>
+                    <!-- http://localhost/IAPassignment/insert.php -->
+                 <form action="http://localhost/IAPassignment/fetch.php" method="POST" class="form-group">
                      <div>
                         <label for="Username">Username</label>
-                        <input type="text" class="form-control" name="Username" autocomplete="off" placeholder="Username"><br>
+                        <input type="text" class="form-control" name="Username" autocomplete="off" placeholder="Username" required><br>
     
                         <label for="Password">Password</label>
-                        <input type="password" class="form-control" name="Password" autocomplete="off" placeholder="Password"><br>
-                        <input type="submit" class="btn-primary" value="Login"><br><br>
+                        <input type="password" class="form-control" name="Password" autocomplete="off" placeholder="Password" required><br>
+                        <input type="submit" name="fetchData" class="btn-primary" value="Login"><br><br>
                         <input type="submit" class="btn btn-info" value="ResetPassword">
-
                      </div>
                  </form>  
-                </center>
+                </centre>
                 </div>
                 <div class="col-md-3"></div>
             </div>

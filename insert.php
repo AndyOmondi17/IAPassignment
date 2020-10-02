@@ -17,12 +17,13 @@
          // else{
         //     echo "Password and Confirm Password does not match";
         // }
+        // Fix error database is not inserting new records after inserting row with id 0 
             $user='root';
             $password='';
             $db='userinformation';
 
             $conn = new mysqli('localhost',$user,$password,$db) or die("Unable to connect");
-
+            // require_once "config.php";
             $SELECT = "SELECT Email From userdetails Where Email = ? Limit 1";
             $INSERT = "INSERT Into userdetails (Firstname, Surname, Username, Email, City, UploadFile, Password) values (?,?,?,?,?,?,?)";
             // Prepare statement
