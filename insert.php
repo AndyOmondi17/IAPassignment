@@ -5,7 +5,7 @@
     $Email = $_POST['Email'];
     $City = $_POST['City'];
     $Password = $_POST['Password'];
-     $encryptedPassword = md5($Password);
+    $encryptedPassword = md5($Password);
     $ConfirmPassword = $_POST['ConfirmPassword'];
     $UploadFile = $_FILES['UploadFile']['name'];
     $temp_profile = $_FILES['UploadFile']['tmp_name'];
