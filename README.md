@@ -8,6 +8,7 @@
 * usersave table should have column id,Firstname,Surname,Username,Email,City,UploadFile,Password
 * go to the feature branch and clone it
 * git clone the project into your local machine
+* In the post method of the form remove http://localhost 
 * In the util.php file replace static $DB_NAME with your database name 
 * The web app is now ready to be used
 
