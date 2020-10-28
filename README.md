@@ -2,7 +2,7 @@
 #### {Brief description of application}, {Date of current version}
 #### By ** Andy Omondi.**
 ## Description
-{The website is a brief description about myself in terms of education and my job wxperience. }
+The webpage allows a user to login,sign up and change their password.
 ## Setup/Installation Requirements
 * Create a database userdetails with table usersave
 * usersave table should have column id,Firstname,Surname,Username,Email,City,UploadFile,Password
